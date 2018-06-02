@@ -1,0 +1,35 @@
+html,body {
+  height: 100%;
+  width:  100%;
+  margin: 0px;
+  background-image: linear-gradient(gold,orange);
+  background-attachment: fixed;
+}
+
+.home {
+  height:   100%;
+  width: 100%;
+  display:  flex;
+  justify-content:  center;
+}
+
+
+.holder {
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+  flex-direction: column;  
+  width: 80%;
+}
+
+.social {
+  display:  flex; 
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.myName {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serifbody
+sans-serif;
+font-size: 60px;
+}
