@@ -2,17 +2,30 @@ html,body {
   height: 100%;
   width:  100%;
   margin: 0px;
-  background-image: linear-gradient(gold,orange);
+  background-image: linear-gradient(purple,gold);
   background-attachment: fixed;
 }
 
-.home {
+.home{
   height:   100%;
   width: 100%;
   display:  flex;
   justify-content:  center;
 }
 
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+  width: 80%;
+}
 
 .holder {
   display:  flex;
@@ -25,11 +38,55 @@ html,body {
 .social {
   display:  flex; 
   justify-content: space-evenly;
-  width: 70%;
+  width: 60%;
 }
 
 .myName {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serifbody
-sans-serif;
+  /*font-family: 'orbitron', sans-serif;*/
+/*font-family: 'Righteous', cursive;*/
+/*font-family: 'Boogaloo', cursive;*/
+/*font-family: 'Caveat', cursive;*/
+/*font-family: 'Cute Font', cursive;*/
+/*font-family: 'Jua', sans-serif;*/
+font-family: 'Jura', sans-serif;
+/*font-family: 'Lobster Two', cursive;*/
 font-size: 60px;
+}
+
+
+
+.description {
+   display:  flex; 
+  justify-content: space-evenly;
+}
+
+.lead {
+   font-family: 'Jura', sans-serif;
+  font-size: x-large;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 0px;
+}
+
+.grid {
+  display: grid;
+  /*justify-content: space-evenly;*/
+  grid-column-gap: 5px;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ; 
+  grid-template-rows: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67% ;
+
+}
+
+.item1 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.item2 {
+  grid-column-start: 5;
+  grid-row-start: 3;
+  grid-column-end: 10;
+  margin: 0px;
 }
