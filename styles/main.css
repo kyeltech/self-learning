@@ -2,7 +2,7 @@ html,body {
   height: 100%;
   width:  100%;
   margin: 0px;
-  background-image: linear-gradient(purple,gold);
+  /* background-image: linear-gradient(purple,gold); */
   background-attachment: fixed;
 }
 
@@ -89,4 +89,13 @@ font-size: 60px;
   grid-row-start: 3;
   grid-column-end: 10;
   margin: 0px;
+}
+.image{
+  position: absolute;
+  display: flex;
+  width: 100px;
+  margin: 10px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
 }
